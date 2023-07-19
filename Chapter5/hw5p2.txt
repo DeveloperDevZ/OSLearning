@@ -1,0 +1,4 @@
+This is written by the parent process
+This is written by the child process
+stem call. 
+That is, either by the parent or by the child, or BOTH.

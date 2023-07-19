@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
     }
     else
     {
-        int wc = wait(NULL);
+        pid_t wc = wait(NULL);
         printf("Hello, I am a parent of %d (wc: %d) (pid: %d)\n", rc, wc, (int)getpid());
     }
     return 0;
